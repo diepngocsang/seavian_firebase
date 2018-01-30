@@ -3,8 +3,8 @@ import { AngularFireDatabase } from 'angularfire2/database';
 import { Observable } from 'rxjs/Observable';
 @Component({
   selector: 'products-list',
-  templateUrl: 'products-list.component.html',
-  styles: []
+  templateUrl: './products-list.component.html',
+  styles: ['./products-list.component.css']
 })
 export class CoursesListComponent implements OnInit {
   coursesObservable: Observable<any[]>;
