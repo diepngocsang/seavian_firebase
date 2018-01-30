@@ -20,7 +20,6 @@ h6 {
     font-weight: 700;
     margin: 0 0 35px;
     letter-spacing: 1px;
-    text-transform: uppercase;
 }
 
 p {
@@ -61,21 +60,20 @@ a:hover {
 }
 
 #about {
-    background: rgba(66, 134, 244, 1);
+    background: rgba(29, 102, 153, 1);
     color: white;
 }
 
 #product {
-    background: rgba(66, 134, 244, 1);
+    background: rgba(29, 102, 153, 1);
     color: white;
 }
 
 #mainNav {
     font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     margin-bottom: 0;
-    text-transform: uppercase;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    background-color: rgba(66, 134, 244, 0.8);
+    background-color: rgba(29, 102, 153, 0.8);
 }
 
 #mainNav .navbar-toggler {
@@ -95,7 +93,7 @@ a:hover {
 }
 
 #mainNav .logo {
-    width: 100px;
+    width: 130px;
     border-radius: 50%;
 }
 
@@ -134,7 +132,7 @@ a:hover {
         padding-top: 10px;
         padding-bottom: 10px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.7);
-        background: rgba(66, 134, 244, 0.8);
+        background: rgba(29, 102, 153, 0.8);
     }
     #mainNav .nav-link.active {
         outline: none;
@@ -159,7 +157,8 @@ a:hover {
 }
 
 .header-intro .intro-body h1 {
-    font-size: 7vw;
+    font-size: 100px;
+    font-family: 'Marck Script', cursive;
 }
 
 .masthead {
@@ -335,7 +334,7 @@ ul.banner-social-buttons {
 @media (max-width: 376px) {
     #carouselExampleControls img {
         width: 100% !important;
-        height: 350px;
+        height: 250px;
     }
     .header-intro .intro-body {
         display: none;
@@ -344,11 +343,13 @@ ul.banner-social-buttons {
         padding-top: 90px;
     }
     #service h2 {
-        font-size: 6vw;
+        font-size: 6vw !important;
     }
-    #service h5,
-    #service p {
-        font-size: 3vw !important;
+    #service h5 {
+        font-size: 4vw !important;
+    }
+    #about h2 {
+        font-size: 6vw !important;
     }
     #service .padding-bt {
         padding-bottom: 0;

@@ -1,3 +1,19 @@
-#home p {
-    text-align: center;
+#header-intro .intro-name {
+    font-family: 'Marck Script', cursive;
+}
+
+#service ul {
+    padding-left: 20px;
+}
+
+#service ul li {
+    text-align: left;
+}
+
+#about h2 {
+    font-size: 3vw;
+}
+
+#about p {
+    text-align: left;
 }
