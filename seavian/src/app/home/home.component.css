@@ -17,3 +17,38 @@
 #about p {
     text-align: left;
 }
+
+#product .col-lg-6 {
+    padding-bottom: 50px;
+}
+
+#product img {
+    width: 100%;
+    height: 250px;
+}
+
+#product .item .bottom-item {
+    background: white;
+    height: 100px;
+    width: 100%;
+    color: black;
+}
+
+#product .item {
+    position: relative;
+}
+
+@media (max-width: 376px) {
+    #product img {
+        width: 100%;
+        height: 250px;
+    }
+    #product .item .bottom-item {
+        background: white;
+        height: 50px;
+        width: 100%;
+    }
+    #about p {
+        padding: 0 30px;
+    }
+}

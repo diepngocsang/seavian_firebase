@@ -131,7 +131,6 @@ a:hover {
     #mainNav.navbar-shrink {
         padding-top: 10px;
         padding-bottom: 10px;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.7);
         background: rgba(29, 102, 153, 0.8);
     }
     #mainNav .nav-link.active {
@@ -338,6 +337,9 @@ ul.banner-social-buttons {
     }
     .header-intro .intro-body {
         display: none;
+    }
+    #mainNav .logo {
+        width: 100px;
     }
     .header-intro .carousel {
         padding-top: 90px;
