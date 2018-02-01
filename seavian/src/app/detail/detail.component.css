@@ -1,0 +1,13 @@
+#detail {
+    background: rgba(29, 102, 153, 1);
+    height: 100vh;
+}
+
+#detail h2 {
+    text-align: center;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+#detail .div-center {
+    justify-content: center
+}
