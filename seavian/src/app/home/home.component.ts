@@ -18,5 +18,8 @@ export class HomeComponent implements OnInit {
   getProducts(listPath): Observable<any[]> {
     return this.db.list(listPath).valueChanges();
   }
+  navigateDetail(item){
+    console.log(item);
+  }
 
 }

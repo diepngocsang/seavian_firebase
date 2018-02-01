@@ -1,6 +1,6 @@
 <!-- Intro Header -->
 <header class="header-intro">
-    <div id="carouselExampleControls" class="carousel slide" data-interval="3000" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-interval="5000" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="assets/img/intro1.jpg" alt="First slide">
@@ -55,7 +55,7 @@
 
                 <div class="row">
                     <div class="col-lg-6" *ngFor="let item of productsObservable | async">
-                        <div class="item">
+                        <div class="item" (click)="navigateDetail(item)">
                             <img [src]="item.imgThumbURL" />
                             <div>
                                 {{item.nameProduct}}
