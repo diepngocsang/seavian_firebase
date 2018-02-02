@@ -35,6 +35,10 @@
     color: black;
 }
 
+#product h2 {
+    font-size: 3vw !important;
+}
+
 #product .item {
     position: relative;
 }
@@ -56,5 +60,8 @@
     }
     #about p {
         padding: 0 30px;
+    }
+    #product h2 {
+        font-size: 6vw !important;
     }
 }

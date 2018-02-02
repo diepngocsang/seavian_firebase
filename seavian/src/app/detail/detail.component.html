@@ -3,8 +3,16 @@
     <div class="container">
         <div class="row div-center">
             <div class="">
+                <ngb-carousel>
+                    <ng-template ngbSlide *ngFor="let detailImg of item.imgDetail">
+                        <img [src]="detailImg.imgURL" alt="Random first slide">
+                        <div class="carousel-caption">
+                            <h3>{{detailImg.imgAlt}}</h3>
+                            <!-- <p>This carousel uses customized default values.</p> -->
+                        </div>
+                    </ng-template>
+                </ngb-carousel>
                 <h2>{{item.nameProduct}}</h2>
-
             </div>
         </div>
     </div>

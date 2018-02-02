@@ -19,7 +19,8 @@ export class HomeComponent implements OnInit {
     return this.db.list(listPath).valueChanges();
   }
   navigateDetail(item){
-    this.router.navigate(['/home', {product: JSON.stringify(item)}]);
+    // console.log();
+    this.router.navigate(['/home', {product: btoa(JSON.stringify(item))}]);
   }
 
 }

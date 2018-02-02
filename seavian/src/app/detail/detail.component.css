@@ -11,3 +11,11 @@
 #detail .div-center {
     justify-content: center
 }
+
+#detail h2 {
+    margin-top: 20px;
+}
+
+#detail img {
+    width: 100%;
+}
