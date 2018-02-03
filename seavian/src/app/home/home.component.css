@@ -1,6 +1,26 @@
-#header-intro .intro-name {
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:700|Marck+Script|Pacifico');
+.header-intro .intro-name-top {
+    margin: 0;
     font-family: 'Marck Script', cursive;
+    font-size: 15vw;
 }
+
+.header-intro .intro-name {
+    font-family: 'Josefin Slab', serif;
+    font-size: 5vw;
+    margin-bottom: 0;
+}
+
+.header-intro hr {
+    border-top: 6px double white;
+    margin-top: 0;
+    width: 30%;
+}
+
+
+/* .header-intro .intro-name {
+    font-family: 'Marck Script', cursive;
+} */
 
 #service ul {
     padding-left: 20px;
@@ -45,7 +65,6 @@
 
 #product .item div {
     font-size: 20px;
-    font-family: 'Comic Sans MS', sans-serif;
 }
 
 @media (max-width: 376px) {
