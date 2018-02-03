@@ -1,6 +1,7 @@
 #detail {
     background: rgba(29, 102, 153, 1);
     height: 100vh;
+    font-family: 'Josefin Slab', serif;
 }
 
 #detail h2 {
@@ -18,4 +19,53 @@
 
 #detail img {
     width: 100%;
+}
+
+#detail .detail-carousel {
+    width: 50%;
+}
+
+#detail .detail-content {
+    animation: fadeInRight 1s;
+}
+
+#detail ul li {
+    text-align: left;
+}
+
+#detail h3,
+#detail h5 {
+    margin-bottom: 0;
+}
+
+@media (max-width: 415px) {
+    #detail .detail-carousel {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
 }

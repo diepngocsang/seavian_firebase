@@ -2,3 +2,12 @@
     font-family: 'Josefin Slab', serif;
     font-size: 1.5vw;
 }
+
+@media (max-width: 415px) {
+    #mainNav a {
+        color: white;
+        border-radius: 10px !important;
+        font-size: 4vw;
+        font-family: 'Josefin Slab', serif;
+    }
+}

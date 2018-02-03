@@ -331,7 +331,7 @@ ul.banner-social-buttons {
     }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 415px) {
     #carouselExampleControls img {
         width: 100% !important;
         height: 250px;
@@ -343,7 +343,8 @@ ul.banner-social-buttons {
         width: 100px;
     }
     .header-intro .carousel {
-        padding-top: 90px;
+        padding-top: 125px;
+        ;
     }
     #service h2 {
         font-size: 6vw !important;
