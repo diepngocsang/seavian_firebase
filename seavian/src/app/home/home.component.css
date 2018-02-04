@@ -76,6 +76,51 @@
     font-size: 20px;
 }
 
+#contact .contact-content {
+    width: 100%;
+    text-align: center;
+}
+
+#contact .main-content {
+    text-align: left;
+    padding-bottom: 30px;
+    border-right: 2px solid black;
+}
+
+#contact .address-content h3 {
+    text-align: left;
+}
+
+#contact .main-content h3 {
+    color: #1D6699;
+}
+
+#contact .main-content a {
+    color: #1D6699;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+#contact .address-content .col-md-6 {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#contact .address-content {
+    padding-left: 40px;
+}
+
+#contact h3 {
+    font-family: 'Marck Script', cursive;
+    margin-bottom: 10px;
+    font-size: 3.5vw;
+}
+
+#contact .main-content p,
+#contact .col-md-6 h5 {
+    margin-bottom: 0;
+}
+
 @media (max-width: 415px) {
     #product img {
         width: 100%;
@@ -91,5 +136,11 @@
     }
     #product h2 {
         font-size: 6vw !important;
+    }
+    #contact .address-content {
+        padding-left: 15px;
+    }
+    #contact h3 {
+        font-size: 8vw;
     }
 }
