@@ -15,6 +15,8 @@
 
 #detail h2 {
     margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 2vw;
 }
 
 #detail img {
@@ -29,6 +31,10 @@
     animation: fadeInRight 1s;
 }
 
+#detail ul {
+    padding-left: 20px;
+}
+
 #detail ul li {
     text-align: left;
 }
@@ -41,6 +47,12 @@
 @media (max-width: 415px) {
     #detail .detail-carousel {
         width: 100%;
+    }
+    #detail h2 {
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: 6vw;
+        margin-bottom: 30px;
     }
 }
 
