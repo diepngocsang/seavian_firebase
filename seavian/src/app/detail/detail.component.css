@@ -13,10 +13,22 @@
     justify-content: center
 }
 
+#detail .title-product {
+    margin: 0 !important;
+}
+
+#detail .main-detail {
+    font-size: 1.7vw;
+}
+
+#detail .detail-title {
+    margin-bottom: 20px;
+}
+
 #detail h2 {
     margin-top: 20px;
     margin-bottom: 0;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 #detail img {
@@ -52,7 +64,13 @@
         margin-top: 20px;
         margin-bottom: 0;
         font-size: 6vw;
-        margin-bottom: 30px;
+        margin-bottom: 0;
+    }
+    #detail .title-product {
+        margin-bottom: 30px !important;
+    }
+    #detail .main-detail {
+        font-size: 5vw;
     }
 }
 
