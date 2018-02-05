@@ -1,12 +1,12 @@
 #detail {
     background: rgba(29, 102, 153, 1);
     height: 100vh;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 #detail h2 {
     text-align: center;
-    font-family: 'Josefin Slab', serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 #detail .div-center {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:700|Marck+Script|Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:700|Marck+Script|Pacifico|PT+Sans');
 .header-intro .intro-name-top {
     margin: 0;
     font-family: 'Marck Script', cursive;
@@ -110,6 +110,10 @@
     padding-left: 40px;
 }
 
+#contact h2 {
+    font-size: 3vw;
+}
+
 #contact h3 {
     font-family: 'Marck Script', cursive;
     margin-bottom: 10px;
@@ -130,6 +134,9 @@
         background: white;
         height: 50px;
         width: 100%;
+    }
+    #contact h2 {
+        font-size: 6vw !important;
     }
     #about p {
         padding: 0 30px;
