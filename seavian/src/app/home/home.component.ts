@@ -13,10 +13,11 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     this.productsObservable = this.getProducts('/products');
+    
   }
 
   getProducts(listPath): Observable<any[]> {
-    return this.db.list(listPath).valueChanges();
+    return this.db.list(listPath,ref => ref.orderByChild('displayOrder')).valueChanges();
   }
   navigateDetail(item){
     // console.log();

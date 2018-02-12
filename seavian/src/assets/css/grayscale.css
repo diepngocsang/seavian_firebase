@@ -91,11 +91,14 @@ a:hover {
 #mainNav a {
     color: white;
     border-radius: 10px !important;
+    font-size: 1.3vw;
+    
 }
 
 #mainNav .logo {
-    width: 130px;
+    width: 180px;
     border-radius: 50%;
+    
 }
 
 #mainNav .navbar-nav .nav-item {
