@@ -98,6 +98,7 @@ a:hover {
 #mainNav .logo {
     width: 180px;
     border-radius: 50%;
+    height: 150px;
     
 }
 
@@ -343,10 +344,10 @@ ul.banner-social-buttons {
     }
     #mainNav .logo {
         width: 100px;
+        height: 80px;
     }
     .header-intro .carousel {
-        padding-top: 125px;
-        ;
+        padding-top: 105px;
     }
     #service h2 {
         font-size: 6vw !important;
