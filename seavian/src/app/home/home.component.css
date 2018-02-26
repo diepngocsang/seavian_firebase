@@ -26,8 +26,28 @@
     font-family: 'Marck Script', cursive;
 } */
 
+#service {
+    background: #faf9fe;
+}
+
+#service .content-service {
+    padding: 50px;
+}
+
+#service .content-service:hover {
+    background: white;
+    -webkit-box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px #000000;
+    transition: 1s;
+    cursor: default;
+}
+
 #service ul {
     padding-left: 20px;
+}
+
+#service h2 {
+    color: #1D6699;
 }
 
 #service ul li {
@@ -54,7 +74,7 @@
     border: 5px double white;
 }
 
-#contact .email-cont{
+#contact .email-cont {
     font-size: 20px;
     font-weight: bold;
 }
