@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:700|Marck+Script|Pacifico|PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:700|Marck+Script|Pacifico|PT+Sans|Ubuntu');
 .header-intro .intro-name-top {
     margin: 0;
     font-family: 'Marck Script', cursive;
@@ -34,6 +34,10 @@
     padding: 50px;
 }
 
+#service .content-service img {
+    padding-bottom: 50px;
+}
+
 #service .content-service:hover {
     background: white;
     -webkit-box-shadow: 0 0 10px #000000;
@@ -51,15 +55,38 @@
 }
 
 #service ul li {
-    text-align: left;
+    text-align: justify;
 }
 
 #about h2 {
     font-size: 3vw;
 }
 
+#about .width-100 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 #about p {
-    text-align: left;
+    text-align: justify;
+    margin-bottom: 40px;
+    line-height: 120%;
+}
+
+#about .about-img {
+    width: 100% !important;
+}
+
+#about .about-img img {
+    width: 100% !important;
+    height: 300px;
+    margin-bottom: 40px;
+    padding: 0 0 0 30px;
+}
+
+#about .col-lg-6 {
+    padding: 0;
 }
 
 #product .col-lg-6 {
@@ -77,6 +104,8 @@
 #contact .email-cont {
     font-size: 20px;
     font-weight: bold;
+    text-decoration: underline;
+    color: #1D6699;
 }
 
 #product .item .bottom-item {
@@ -110,17 +139,49 @@
     text-align: center;
 }
 
+#contact h2 {
+    color: #1D6699;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+#contact h4 {
+    padding-bottom: 50px;
+}
+
 #contact .main-content {
-    text-align: left;
+    text-align: center;
     padding-bottom: 30px;
-    border-right: 2px solid black;
+}
+
+#contact .get-touch p {
+    padding: 20px 0 0;
+}
+
+#contact .flex-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+#contact .flex-contact img {
+    padding-right: 10px;
+}
+
+#contact .where-find {
+    color: #000000 !important;
+}
+
+#contact .main-content .add-content {
+    padding: 20px 0;
 }
 
 #contact .address-content h3 {
     text-align: left;
 }
 
-#contact .main-content h3 {
+#contact .main-content h5 {
     color: #1D6699;
 }
 
@@ -143,10 +204,10 @@
     font-size: 3vw;
 }
 
-#contact h3 {
-    font-family: 'Marck Script', cursive;
+#contact h4 {
+    font-family: 'Ubuntu', sans-serif;
     margin-bottom: 10px;
-    font-size: 3.5vw;
+    font-size: 2vw;
 }
 
 #contact .main-content p,
