@@ -1,6 +1,11 @@
+
 #mainNav {
     font-family: 'PT Sans', sans-serif;
     font-size: 1vw;
+}
+
+#mainNav .margin-0-nav{
+    margin: 0 !important;
 }
 
 @media (max-width: 415px) {

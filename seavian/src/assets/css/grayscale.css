@@ -282,7 +282,7 @@ a:hover {
 }
 
 #service .content-div {
-    max-width: 100% !important;
+    /* max-width: 100% !important; */
 }
 
 #service .padding-bt {
@@ -312,7 +312,7 @@ a:hover {
 }
 
 #service .content-div .content {
-    max-width: 100%;
+    /* max-width: 100%; */
 }
 
 #service .content-div .content h5 {
