@@ -94,7 +94,7 @@ a:hover {
 }
 
 #mainNav .logo {
-    width: 200px;
+    width: 170px;
     /* 
     border-radius: 50%;
     height: 150px; */
@@ -132,8 +132,8 @@ a:hover {
         background: transparent;
     }
     #mainNav.navbar-shrink {
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding-top: 0;
+        padding-bottom: 0;
         background: rgba(29, 102, 153, 0.8);
     }
     #mainNav .nav-link.active {
