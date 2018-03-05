@@ -94,9 +94,10 @@ a:hover {
 }
 
 #mainNav .logo {
-    width: 180px;
+    width: 200px;
+    /* 
     border-radius: 50%;
-    height: 150px;
+    height: 150px; */
 }
 
 #mainNav .navbar-nav .nav-item {
